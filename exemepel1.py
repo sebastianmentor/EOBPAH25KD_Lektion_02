@@ -3,33 +3,34 @@
 POSISTIONS = {
     "1": "Back", 
     "2": "Mittspelare", 
-    "3": "Anfallsspelare"
+    "3": "Anfallsspelare",
+    "4": "Målvakt"
     }
 
 teams = {
     "Västerås Vikings": [
-        {"name": "Erik Storm", "jersy": 7, "pos": "Forward", "shoe_size": 44},
-        {"name": "Liam Frost", "jersy": 14, "pos": "Målvakt", "shoe_size": 46},
-        {"name": "Noah Blad", "jersy": 9, "pos": "Mittfältare", "shoe_size": 43},
-        {"name": "Felix Grön", "jersy": 22, "pos": "Back", "shoe_size": 45},
+        {"name": "Erik Storm", "jersy": 7, "pos": "3", "shoe_size": 44},
+        {"name": "Liam Frost", "jersy": 14, "pos": "4", "shoe_size": 46},
+        {"name": "Noah Blad", "jersy": 9, "pos": "2", "shoe_size": 43},
+        {"name": "Felix Grön", "jersy": 22, "pos": "1", "shoe_size": 45},
     ],
     "Uppsala Unicorns": [
-        {"name": "Alice Stjärna", "jersy": 10, "pos": "Forward", "shoe_size": 41},
-        {"name": "Maja Skog", "jersy": 17, "pos": "Mittfältare", "shoe_size": 39},
-        {"name": "Tilda Måne", "jersy": 3, "pos": "Back", "shoe_size": 40},
-        {"name": "Elin Flod", "jersy": 1, "pos": "Målvakt", "shoe_size": 42},
+        {"name": "Alice Stjärna", "jersy": 10, "pos": "3", "shoe_size": 41},
+        {"name": "Maja Skog", "jersy": 17, "pos": "2", "shoe_size": 39},
+        {"name": "Tilda Måne", "jersy": 3, "pos": "1", "shoe_size": 40},
+        {"name": "Elin Flod", "jersy": 1, "pos": "4", "shoe_size": 42},
     ],
     "Göteborg Gorillas": [
-        {"name": "Anton Berg", "jersy": 8, "pos": "Forward", "shoe_size": 45},
-        {"name": "Lukas Palm", "jersy": 4, "pos": "Back", "shoe_size": 44},
-        {"name": "Oscar Nil", "jersy": 12, "pos": "Mittfältare", "shoe_size": 43},
-        {"name": "Hugo Ström", "jersy": 30, "pos": "Målvakt", "shoe_size": 47},
+        {"name": "Anton Berg", "jersy": 8, "pos": "3", "shoe_size": 45},
+        {"name": "Lukas Palm", "jersy": 4, "pos": "1", "shoe_size": 44},
+        {"name": "Oscar Nil", "jersy": 12, "pos": "2", "shoe_size": 43},
+        {"name": "Hugo Ström", "jersy": 30, "pos": "4", "shoe_size": 47},
     ],
     "Lund Lightning": [
-        {"name": "Sara Falk", "jersy": 5, "pos": "Mittfältare", "shoe_size": 38},
-        {"name": "Clara Sol", "jersy": 16, "pos": "Forward", "shoe_size": 39},
-        {"name": "Emil Nyström", "jersy": 11, "pos": "Back", "shoe_size": 42},
-        {"name": "Viktor Ås", "jersy": 24, "pos": "Målvakt", "shoe_size": 44},
+        {"name": "Sara Falk", "jersy": 5, "pos": "2", "shoe_size": 38},
+        {"name": "Clara Sol", "jersy": 16, "pos": "3", "shoe_size": 39},
+        {"name": "Emil Nyström", "jersy": 11, "pos": "1", "shoe_size": 42},
+        {"name": "Viktor Ås", "jersy": 24, "pos": "4", "shoe_size": 44},
     ],
 }
 
