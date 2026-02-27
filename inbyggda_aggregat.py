@@ -30,7 +30,7 @@ print("Namnet som är kortast", min(lista_med_namn, key=len))
 
 print(f"{all(min_lista)=}")
 
-påhittat_lista = ["", 0, False, 0.0, "Hejsan"]
+påhittat_lista = ["", 0, False, 0.0, (), [], {}, "hejsan"]
 
 print(f"{any(påhittat_lista)=}")
 
@@ -51,3 +51,10 @@ t[2].sort()
 print(t)
 
 print(sorted(fun_dict.values()))
+
+t[2].reverse()
+print(t)
+
+# tuple1 = (1,2,3,[1,2,3],6)
+
+# tuple1[3] = (1,2,3)

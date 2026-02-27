@@ -1,5 +1,6 @@
 """ Ett lite program som hantera lag och fotbollspelare!"""
 
+# Tanken att det ska vara en konstant!
 POSISTIONS = {
     "1": "Back", 
     "2": "Mittspelare", 

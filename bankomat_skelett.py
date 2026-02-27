@@ -6,8 +6,8 @@ accounts = {
         "transactions":[(100, "deposit"), (50, "witdraw")] },
         
     "5555": {
-        "saldo":250,
-        "transactions":[(150, "deposit"), (100, "witdraw"),(200, "deposit")] }
+        "saldo":275,
+        "transactions":[(150, "deposit"), (100, "witdraw"),(200, "deposit"), (25, "deposit")] }
         
 }
 

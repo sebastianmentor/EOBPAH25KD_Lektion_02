@@ -69,8 +69,7 @@ first_dict = {1: "value 1", 2: "value 2", 3:"value 3"}
 second_dict = {3: "another value", 4: "value 4", 5: "number 5"}
 
 second_dict.update(first_dict)
-print(second_dict)
-
+print(second_dict) 
 # for key, value in second_dict.items():
 #     first_dict[key] = value
 
